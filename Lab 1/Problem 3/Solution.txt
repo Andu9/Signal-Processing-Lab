@@ -1,0 +1,4 @@
+a. f_s = 2000 => 1 / T = 2000 => T = 1 / 2000
+b. f_s = 2000 Hz => 2000 de eșantioane / secundă => 2000 * 3600 eșantioane / oră =>
+   => 4 * 2000 * 3600 biți / oră => 8000 * 3600 biți / oră => 1000 * 3600 bytes / oră =>
+   => 3.6 MB / oră
