@@ -14,7 +14,7 @@ fig.suptitle('Imaginary and Real graphics for the Fourier Matrix of order N = 8'
 for i in range(N):
     axs[i, 0].stem(np.arange(N), [fourierMatrix[i, j].real for j in range(N)])
     axs[i, 1].stem(np.arange(N), [fourierMatrix[i, j].imag for j in range(N)])
-fig.savefig('1.pdf')
+fig.savefig('D.pdf')
 fig.show()
 
 FHF = np.conjugate(fourierMatrix.T) @ fourierMatrix

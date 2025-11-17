@@ -62,7 +62,7 @@ def benchmark(sizes = (128, 256, 512, 1024, 2048, 4096, 8192)):
     plt.yscale('log', base = 2)
     plt.tight_layout()
     plt.legend()
-    plt.savefig('1.pdf')
+    plt.savefig('D.pdf')
     plt.show()
 
 if __name__ == '__main__':
